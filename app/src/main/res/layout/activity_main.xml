@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/select_product_category"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+
+        <ImageButton
+            android:id="@+id/mens_wear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+
+            android:src="@drawable/mens_wear"></ImageButton>
+
+
+        <ScrollView
+            android:layout_width="65dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/womens_wear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/womens_wear" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="250dp">
+
+        <ImageButton
+            android:id="@+id/mens_wear2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/mens_shoes"
+            />
+
+
+        <ScrollView
+            android:layout_width="61dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/womens_wear2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/ladies_footwear"
+             />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="420dp">
+
+        <ImageButton
+            android:id="@+id/mobile1"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/mobile_phones"
+       />
+
+        <ScrollView
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/tablets1"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/tablets"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="590dp">
+
+
+        <ImageButton
+            android:id="@+id/headsets1"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/headsets"
+           />
+
+
+        <ScrollView
+            android:layout_width="58dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/laptops1"
+            android:layout_width="147dp"
+            android:layout_height="135dp"
+            android:paddingHorizontal="30dp"
+            android:src="@drawable/laptops" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
